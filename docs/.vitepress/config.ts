@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: '前端知识库',
   description: '全面覆盖前端开发的核心知识点，从基础到高级，助力前端工程师技术成长',
+  head: [['link', { rel: 'stylesheet', href: '/.vitepress/custom.css' }]],
   themeConfig: {
     nav: [
       // { text: 'React 面试题', link: '/react/' },

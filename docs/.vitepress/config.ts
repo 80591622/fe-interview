@@ -4,19 +4,15 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: '前端知识库',
   description: '全面覆盖前端开发的核心知识点，从基础到高级，助力前端工程师技术成长',
-  // head: [['link', { rel: 'stylesheet', href: '/.vitepress/custom.css' }]],
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
-      { text: '通用面试题', link: '/general/' },
-      { text: 'React 面试题', link: '/react/' },
-      { text: 'Vue 3 面试题', link: '/vue3/' }
+      // { text: 'React 面试题', link: '/react/' },
     ],
     search: {
       provider: 'local'
     },
     sidebar: {
-      '/vue3/': [
+      '/': [
         {
           text: 'Vue 3 面试题',
           collapsed: false,
@@ -30,12 +26,10 @@ export default defineConfig({
             { text: 'Composition API', link: '/vue3/composition-api' },
             { text: '其他特性', link: '/vue3/features' }
           ]
-        }
-      ],
-      '/react/': [
+        },
         {
           text: 'React 面试题',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '概述', link: '/react/' },
             { text: '核心概念', link: '/react/core' },

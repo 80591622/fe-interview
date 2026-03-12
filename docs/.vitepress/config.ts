@@ -19,6 +19,7 @@ export default defineConfig({
       '/vue3/': [
         {
           text: 'Vue 3 面试题',
+          collapsed: false,
           items: [
             { text: '概述', link: '/vue3/' },
             { text: '响应式原理', link: '/vue3/reactive' },
@@ -28,6 +29,22 @@ export default defineConfig({
             { text: '性能优化', link: '/vue3/performance' },
             { text: 'Composition API', link: '/vue3/composition-api' },
             { text: '其他特性', link: '/vue3/features' }
+          ]
+        }
+      ],
+      '/react/': [
+        {
+          text: 'React 面试题',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/react/' },
+            { text: '核心概念', link: '/react/core' },
+            { text: 'Hooks', link: '/react/hooks' },
+            { text: '状态管理', link: '/react/state' },
+            { text: 'React Router', link: '/react/router' },
+            { text: '性能优化', link: '/react/performance' },
+            { text: '并发渲染', link: '/react/concurrent' },
+            { text: '服务端渲染', link: '/react/ssr' }
           ]
         }
       ]

@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # VitePress cache
-.vitepress/cache
+.vitepress/cache*

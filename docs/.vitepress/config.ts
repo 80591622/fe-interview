@@ -15,8 +15,20 @@ export default defineConfig({
     sidebar: {
       '/': [
         {
-          text: 'Vue 3 面试题',
+          text: 'CSS 面试题',
           collapsed: false,
+          items: [
+            { text: '概述', link: '/css/' },
+            { text: '核心概念', link: '/css/core' },
+            { text: '布局', link: '/css/layout' },
+            { text: '视觉效果', link: '/css/visual' },
+            { text: '性能优化', link: '/css/performance' },
+            { text: '响应式设计', link: '/css/responsive' }
+          ]
+        },
+        {
+          text: 'Vue 3 面试题',
+          collapsed: true,
           items: [
             { text: '概述', link: '/vue3/' },
             { text: '响应式原理', link: '/vue3/reactive' },

@@ -2,13 +2,16 @@
 
 ## Vue3 生命周期有哪些？
 
-- setup 组件初始化时调用，用于初始化响应式数据和事件。
-- onBeforeMount 组件 DOM 挂载前执行
-- onMounted 组件 DOM 挂载完成后执行
-- onBeforeUpdate 组件更新前执行
-- onUpdated 组件更新后执行
-- onBeforeUnmount 组件卸载前执行
-- onUnmounted 组件卸载后执行
+| Vue 2 Options API | Vue 3 Composition API | 执行时机                 | 典型用途                     |
+| ----------------- | --------------------- | ------------------------ | ---------------------------- |
+| beforeCreate      | setup()               | 实例初始化前             | 基本被 setup 替代            |
+| created           | setup()               | 实例创建后               | 初始化数据、发起网络请求     |
+| beforeMount       | onBeforeMount         | DOM 挂载前               | 准备工作，访问不到 DOM       |
+| mounted           | onMounted             | DOM 挂载后               | DOM 操作、集成第三方库       |
+| beforeUpdate      | onBeforeUpdate        | 数据更新，DOM 重新渲染前 | 获取更新前的 DOM 状态        |
+| updated           | onUpdated             | DOM 更新后               | 执行依赖于 DOM 更新的操作    |
+| beforeDestroy     | onBeforeUnmount       | 组件实例卸载前           | 清理定时器、事件监听等副作用 |
+| destroyed         | onUnmounted           | 组件实例卸载后           | 最后的清理工作               |
 
 ## setup 执行时机
 

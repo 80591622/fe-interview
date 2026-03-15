@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".", // 设置基路径为 tsconfig.json 所在目录  
+    "paths": {
+      "@/*": [
+        "docs/*"
+      ] // 将 @ 开头的路径映射到 docs 目录  
+    }
+  },
+  "include": [
+    "docs/**/*",
+    "docs/**/*.tsx",
+    "docs/**/*.vue",
+    "docs/**/*.md"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

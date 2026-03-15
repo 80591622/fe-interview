@@ -53,6 +53,14 @@ export default defineConfig({
             { text: '并发渲染', link: '/react/concurrent' },
             { text: '服务端渲染', link: '/react/ssr' }
           ]
+        },
+        {
+          text: 'Js 面试题',
+          collapsed: true,
+          items: [
+            { text: '数据类型', link: '/js/dataType/' },
+            { text: '类型判断', link: '/js/typeCheck/' }
+          ]
         }
       ]
     },

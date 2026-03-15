@@ -38,3 +38,9 @@
 .VPFeature:focus-within .icon {
   transform: scale(1.08);
 }
+
+/* 防止三级标题在二级标题下换行 */
+h2 + h3 {
+  display: inline-block;
+  white-space: nowrap;
+}

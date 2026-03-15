@@ -8,6 +8,9 @@
     "serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.0",
     "vitepress": "1.6.4",
     "vue": "3.5.30"
   },

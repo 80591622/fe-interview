@@ -451,7 +451,7 @@ null === undefined; // false
 - TypeScript 和类型检查：对于使用 TypeScript 的考察点，可能涉及类型安全、接口和类型注解等内容。
 
 ## 关联面试题
-TypeScript 的内置数据类型有哪些？
+[TypeScript 的内置数据类型有哪些？](https://www.baidu.com/s?wd=TypeScript%20的内置数据类型有哪些)
 
 JavaScript中的简单数据类型有哪些？
 

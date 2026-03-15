@@ -59,7 +59,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '数据类型', link: '/js/dataType/' },
-            { text: '类型判断', link: '/js/typeCheck/' }
+            { text: '类型判断', link: '/js/typeCheck/' },
+            { text: '数据类型转换', link: '/js/typeConversion/' }
           ]
         }
       ]

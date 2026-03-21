@@ -28,7 +28,7 @@ export default defineConfig({
         },
         {
           text: 'Vue 3 面试题',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: '概述', link: '/vue3/' },
             { text: '响应式原理', link: '/vue3/reactive' },
@@ -42,7 +42,7 @@ export default defineConfig({
         },
         {
           text: 'React 面试题',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: '概述', link: '/react/' },
             { text: '核心概念', link: '/react/core' },
@@ -56,11 +56,30 @@ export default defineConfig({
         },
         {
           text: 'Js 面试题',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: '数据类型', link: '/js/dataType/' },
             { text: '类型判断', link: '/js/typeCheck/' },
             { text: '数据类型转换', link: '/js/typeConversion/' }
+          ]
+        },
+        {
+          text: '工程化',
+          collapsed: false,
+          items: [
+            { text: '微前端', link: '/engineering/micro-frontend/' },
+            { text: '微前端问题及解决方案', link: '/engineering/micro-frontend-problems/' },
+            { text: '前端性能优化', link: '/engineering/performance-optimization/' },
+            { text: '组件库', link: '/engineering/component-library/' }
+          ]
+        },
+        {
+          text: 'AI 面试题',
+          collapsed: false,
+          items: [
+            { text: '概述', link: '/ai/' },
+            { text: 'AI 基础概念', link: '/ai/ai-basics/' },
+            { text: '前端 AI 应用', link: '/ai/frontend-ai/' }
           ]
         }
       ]

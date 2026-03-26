@@ -79,7 +79,9 @@ export default defineConfig({
           items: [
             { text: '概述', link: '/ai/' },
             { text: 'AI 基础概念', link: '/ai/ai-basics/' },
-            { text: '前端 AI 应用', link: '/ai/frontend-ai/' }
+            { text: '前端 AI 应用', link: '/ai/frontend-ai/' },
+            { text: 'ai企业知识库', link: '/ai/ai-knowledge-base/' },
+            { text: 'ai工程化实践', link: '/ai/ai-engineering/' },
           ]
         }
       ]
